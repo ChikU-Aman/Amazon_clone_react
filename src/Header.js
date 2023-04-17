@@ -26,8 +26,8 @@ const Header = () => {
             </div>
             <div className="header__nav">
                 <div className="header__option">
-                    <span className="header__optionLineOne">Hello Guest</span>
-                    <span className="header_optionTwo">Sign In</span>
+                    <span className="header__optionLineOne">Hello, sign in</span>
+                    <span className="header_optionTwo">Account & Lists</span>
                 </div>
                 <div className="header__option">
                     <span className="header__optionLineOne">Returns</span>
