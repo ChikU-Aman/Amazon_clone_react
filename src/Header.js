@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import SearchIcon from "@mui/icons-material/Search";
 import PlaceOutlinedIcon from "@mui/icons-material/PlaceOutlined";
+import AddShoppingCartOutlinedIcon from "@mui/icons-material/AddShoppingCartOutlined";
 
 const Header = () => {
     return (
@@ -12,7 +13,7 @@ const Header = () => {
             />
             <span className="header__logoText">.in</span>
             <div className="header__nav">
-                <div style={{marginTop: 3}} className="header__option">
+                <div style={{ marginTop: 3 }} className="header__option">
                     <PlaceOutlinedIcon className="header__locationIcon" />
                 </div>
                 <div style={{ marginLeft: -10 }} className="header__option">
@@ -37,7 +38,9 @@ const Header = () => {
                     <span className="header__optionLineOne">Your</span>
                     <span className="header_optionTwo">Prime</span>
                 </div>
-                <div className="header__optionBasket"></div>
+                <div className="header__option">
+                    <AddShoppingCartOutlinedIcon />
+                </div>
             </div>
         </div>
     );
